@@ -1,9 +1,9 @@
-# [full stack nginx CodeIgniter for everyone with docker compose](https://github.com/damalis/full-stack-nginx-codeigniter-for-everyone-with-docker-compose)
+# [full stack apache2 CodeIgniter for everyone with docker compose](https://github.com/damalis/full-stack-apache2-codeigniter-for-everyone-with-docker-compose)
 
 If You want to have a CodeIgniter "appstarter" website at short time; 
 
-#### Full stack Nginx CodeIgniter "appstarter":
-<p align="left"> <a href="https://www.codeigniter.com/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/44521256?s=200&v=4" alt="codeigniter" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" alt="docker" width="40" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/5877084?s=200&v=4" alt="mariadb" height="50" width="50"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/1412239?s=200&v=4" alt="nginx" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/25158?s=200&v=4" alt="php" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/1529926?s=200&v=4" alt="redis" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png" alt="Bash" height="50" width="50" /> </a>&nbsp;&nbsp;&nbsp;
+#### Full stack Apache2 CodeIgniter "appstarter":
+<p align="left"> <a href="https://www.codeigniter.com/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/44521256?s=200&v=4" alt="codeigniter" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" alt="docker" width="40" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/5877084?s=200&v=4" alt="mariadb" height="50" width="50"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://www.apache2.com" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/1412239?s=200&v=4" alt="apache2" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/25158?s=200&v=4" alt="php" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/1529926?s=200&v=4" alt="redis" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png" alt="Bash" height="50" width="50" /> </a>&nbsp;&nbsp;&nbsp;
  <a href="https://www.phpmyadmin.net/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/1351977?s=200&v=4" alt="phpmyadmin" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://letsencrypt.org/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/17889013?s=200&v=4" alt="letsencrypt" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://www.portainer.io/?hsLang=en" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/22225832?s=200&v=4" alt="portainer" height="40" width="40"/> </a> </p>
 
 Plus, manage docker containers with Portainer.
@@ -11,7 +11,7 @@ Plus, manage docker containers with Portainer.
 #### With this project you can quickly run the following:
 
 - [CodeIgniter](https://github.com/codeigniter4/CodeIgniter4) - [php-fpm](https://hub.docker.com/_/php?tab=tags&page=1&name=fpm)
-- [webserver (nginx)](https://hub.docker.com/_/nginx)
+- [webserver (apache2/httpd)](https://hub.docker.com/_/httpd)
 - [certbot (letsencrypt)](https://hub.docker.com/r/certbot/certbot)
 - [phpMyAdmin](https://hub.docker.com/r/phpmyadmin/phpmyadmin/)
 - [database](https://hub.docker.com/_/mariadb)
@@ -45,13 +45,13 @@ Create rules to open ports to the internet, or to a specific IPv4 address or ran
 download with
 
 ```
-git clone https://github.com/damalis/full-stack-nginx-codeigniter-for-everyone-with-docker-compose.git
+git clone https://github.com/damalis/full-stack-apache2-codeigniter-for-everyone-with-docker-compose.git
 ```
 
 Open a terminal and `cd` to the folder in which `docker-compose.yml` is saved and run:
 
 ```
-cd full-stack-nginx-codeigniter-for-everyone-with-docker-compose
+cd full-stack-apache2-codeigniter-for-everyone-with-docker-compose
 chmod +x install.sh
 ./install.sh
 ```
@@ -71,13 +71,13 @@ Make sure to [add your user to the `docker` group](https://docs.docker.com/insta
 
 download with
 ```
-git clone https://github.com/damalis/full-stack-nginx-codeigniter-for-everyone-with-docker-compose.git
+git clone https://github.com/damalis/full-stack-apache2-codeigniter-for-everyone-with-docker-compose.git
 ```
 
 Open a terminal and `cd` to the folder in which `docker-compose.yml` is saved and run:
 
 ```
-cd full-stack-nginx-codeigniter-for-everyone-with-docker-compose
+cd full-stack-apache2-codeigniter-for-everyone-with-docker-compose
 ```
 
 ### Manual Configuration
@@ -109,14 +109,14 @@ change example.com to your domain name in ```./phpmyadmin/apache2/sites-availabl
 Firstly: will create external volume
 
 ```
-docker volume create --driver local --opt type=none --opt device=/home/ubuntu/full-stack-nginx-codeigniter-for-everyone-with-docker-compose/certbot --opt o=bind certbot-etc
+docker volume create --driver local --opt type=none --opt device=/home/ubuntu/full-stack-apache2-codeigniter-for-everyone-with-docker-compose/certbot --opt o=bind certbot-etc
 ```
 
 ```
 docker-compose up -d
 ```
 
-then reloading for nginx ssl configuration
+then reloading for apache2 ssl configuration
 
 ```
 docker container restart webserver
