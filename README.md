@@ -215,7 +215,7 @@ Or you should make changes custom host configurations then must restart service
 docker container restart codeigniter
 ```
 
-add and/or remove codeigniter site folders and files with any ftp client program in ```./codeigniter/html``` folder.
+add and/or remove codeigniter site folders and files with any ftp client program in ```./codeigniter/appstarter``` folder.
 <br />You can also visit `https://example.com` to access website after starting the containers.
 
 #### Redis
