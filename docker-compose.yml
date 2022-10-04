@@ -110,7 +110,7 @@ services:
               target: '${LETSENCRYPT_CONF_PREFIX}/options-ssl-apache.conf'
             - type: bind
               source: ./phpmyadmin/config.user.inc.php
-              target: '${PMA_CONF_FOLDER}/config.user.inc.php'            
+              target: '${PMA_CONF_FOLDER}/config.user.inc.php'
             - type: bind
               source: ./phpmyadmin/php/conf.d/security.ini
               target: '${PHP_INI_DIR_PREFIX}/php/conf.d/security.ini'
