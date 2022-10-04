@@ -156,7 +156,7 @@ docker-compose stop
 
 ### Removing containers
 
-To stop and remove all the containers use the`down` command:
+To stop and remove all the containers use the `down` command:
 
 ```
 docker-compose down
@@ -235,7 +235,7 @@ $config['timeout'] = 0;
 
 ### phpMyAdmin
 
-could add/remove config.inc.php settings (such as Configuration Storage setup) with the various user defined settings in it:
+You can add your own custom config.inc.php settings (such as Configuration Storage setup) by creating a file named config.user.inc.php with the various user defined settings in it, and then linking it into the container using:
 
 ```
 ./phpmyadmin/config.user.inc.php
