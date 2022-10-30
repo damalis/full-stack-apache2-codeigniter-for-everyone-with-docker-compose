@@ -40,6 +40,7 @@ Create rules to open ports to the internet, or to a specific IPv4 address or ran
 	- [Website](#website)
 	- [Webserver](#webserver)
 	- [Redis](#redis)
+	- [Cache](#cache)
 	- [phpMyAdmin](#phpmyadmin)
 	- [backup](#backup)					  
 
@@ -250,6 +251,12 @@ $config['password'] = NULL;
 $config['port'] = 6379;
 $config['timeout'] = 0;
 ```
+
+#### Cache
+
+CodeIgniter features wrappers around some of the most popular forms of fast and dynamic caching. All but file-based caching require specific server requirements, and a Fatal Exception will be thrown if server requirements are not met.
+
+[https://codeigniter.com/userguide3/libraries/caching.html](https://codeigniter.com/userguide3/libraries/caching.html)
 
 ### phpMyAdmin
 
