@@ -227,7 +227,7 @@ FPM uses php.ini syntax for its configuration file - php-fpm.conf, and pool conf
 docker container restart codeigniter
 ```
 
-add and/or remove wordpress site folders and files with any ftp client program in ```./wordpress``` folder.
+add and/or remove codeigniter site folders and files with any ftp client program in ```./codeigniter/appstarter``` folder.
 <br />You can also visit `https://example.com` to access website after starting the containers.
 
 #### Webserver
