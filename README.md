@@ -256,7 +256,7 @@ $config['timeout'] = 0;
 
 CodeIgniter features wrappers around some of the most popular forms of fast and dynamic caching. All but file-based caching require specific server requirements, and a Fatal Exception will be thrown if server requirements are not met.
 
-[https://codeigniter.com/userguide3/libraries/caching.html](https://codeigniter.com/userguide3/libraries/caching.html)
+[https://codeigniter.com/user_guide/libraries/caching.html?highlight=cache](https://codeigniter.com/user_guide/libraries/caching.html?highlight=cache)
 
 ### phpMyAdmin
 
