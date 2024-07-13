@@ -44,7 +44,7 @@ services:
     webserver:
         depends_on:
             codeigniter:
-                condition: service_healthy 
+                condition: service_healthy
         image: httpd:latest
         container_name: webserver
         networks:
