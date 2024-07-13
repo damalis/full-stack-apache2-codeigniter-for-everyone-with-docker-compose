@@ -3,7 +3,7 @@ services:
     codeigniter:
         depends_on:
             database:
-                  condition: service_healthy
+                condition: service_healthy
         image: ${PHP_IMAGE_NAME}
         container_name: codeigniter
         networks:
