@@ -1,4 +1,9 @@
 <IfModule mod_rewrite.c>
-    RewriteEngine on
-    RewriteRule (.*) /appstarter/public/$1 [L]
+    RewriteEngine On
+    RewriteRule ^(.*)$ /appstarter/public/$1 [L]
 </IfModule>
+
+<FilesMatch "^\.">
+    Require all denied
+    Satisfy All
+</FilesMatch>
